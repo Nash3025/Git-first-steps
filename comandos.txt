@@ -36,5 +36,8 @@ git diff commit1 commit2
 
 +ramas
 	development rama de desarrollo
+	feature rama de nuevas características
 	hot fix rama de solución bugs
 git cheockout 
+
+git reset idCommit --hard|soft
