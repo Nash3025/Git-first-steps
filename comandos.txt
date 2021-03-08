@@ -33,3 +33,8 @@ git config --global user.email "mailName@gg.c"
 
 git diff commit1 commit2
 	mostrar diferencia de los cambios entre las dos versiones
+
++ramas
+	development rama de desarrollo
+	hot fix rama de solución bugs
+git cheockout 
