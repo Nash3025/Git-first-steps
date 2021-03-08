@@ -58,10 +58,12 @@ git fetch
 	descarga las modificaciones al repositorio local
 git merge
 	combina los cambios del repositorio local y los realizados
-git merge
+git pull
 	combinacion de git fetch y git merge
 
 git branch branchName
 	crea una nueva rama
 git cheockout branchName
 	redirige a la nueva rama
+git merge branchName
+	combina la rama donde esta el HEAD con branchName, continua en la rama del HEAD
