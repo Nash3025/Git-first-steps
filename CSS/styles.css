@@ -1,6 +1,16 @@
 body
 {
-    text-align: center;
-    color: deeppink;
+    text-align: left;
+    color: #333;
     font-family: "Arial";
+}
+#container{
+  width: 70% ;
+  padding: 1em;
+  text-align: left;
+  border: 1px solid #DDD;
+  margin: 0 auto;
+}
+#container h2{
+    font-size:25px
 }
