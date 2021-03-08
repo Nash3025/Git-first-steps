@@ -44,5 +44,19 @@ git reset idCommit --hard|soft
 	restablece git a un punto determinado, hard aplica los cambios soft deja los cambios en stage
 
 git rm --cached|force nameFile
-	elmina los archivos del stage (cached) y del disco duro (force)
+	elmina los archivos del stage (cached) y de la base de git (force)
 
+git log --stat
+	mostrar estadisticas de cambios en el repositorio
+
++repositorio remoto
+git clone url
+	copia del master al directorio de trabajo y una copia del repositorio
+git push url
+	envía las modificaciones al repositorio remoto
+git fetch
+	descarga las modificaciones al repositorio local
+git merge
+	combina los cambios del repositorio local y los realizados
+git merge
+	combinacion de git fetch y git merge
