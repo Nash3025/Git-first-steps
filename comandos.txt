@@ -4,4 +4,16 @@ git add namefile
 	añadir un nuevo fichero al repositorio
 git commit -m "vesionName"
 	manda los cambios al stage (base de datos)
+git add .
+	añade todos los archivos que han cambiado
+git status
+	revisar los cambios que se han realizado
+git show
+	mostrar todos los cambios históricos hechos
+git log nameFile
+	revisar el historial de cambios de un archivo
+git push
+	mandar a un servidor remoto
+git pull 
+	recibir de un repositorio remoto
 
