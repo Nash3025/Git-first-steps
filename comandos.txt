@@ -1,0 +1,7 @@
+git init
+	inicializar un nuevo repositorio
+git add namefile
+	añadir un nuevo fichero al repositorio
+git commit -m "vesionName"
+	manda los cambios al stage (base de datos)
+
