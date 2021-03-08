@@ -16,4 +16,18 @@ git push
 	mandar a un servidor remoto
 git pull 
 	recibir de un repositorio remoto
+git rm --cached nameFile
+	eliminar archivo del stage y de la memoria ram
+git rm nameFile
+	borra archivo del stage
 
+git config
+	mostrar la configuracion de git
+git config --list
+	modificar la configuracion de git
+git config --list --show-origin
+	mostrar la ubicacion de los archivos de configuracion
+git config --global user.name "userName"
+	configuracion para todos los usuarios
+git config --global user.email "mailName@gg.c"
+	
