@@ -30,4 +30,6 @@ git config --list --show-origin
 git config --global user.name "userName"
 	configuracion para todos los usuarios
 git config --global user.email "mailName@gg.c"
-	
+
+git diff commit1 commit2
+	mostrar diferencia de los cambios entre las dos versiones
