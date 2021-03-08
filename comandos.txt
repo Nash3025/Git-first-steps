@@ -60,3 +60,8 @@ git merge
 	combina los cambios del repositorio local y los realizados
 git merge
 	combinacion de git fetch y git merge
+
+git branch branchName
+	crea una nueva rama
+git cheockout branchName
+	redirige a la nueva rama
