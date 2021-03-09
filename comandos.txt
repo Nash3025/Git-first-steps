@@ -67,3 +67,15 @@ git cheockout branchName
 	redirige a la nueva rama
 git merge branchName
 	combina la rama donde esta el HEAD con branchName, continua en la rama del HEAD
+git pull origin main --allow-unrelated-histories
+	permitir realizar un merge con repositorios de origenes diferentes
+---------
+Confiruracion ssh
+	ssh-keygen -t rsa -b 4096 -C "email"
+		generación de llave ssh
+	eval $(ssh-agent -s)
+		comprobar que el proceso ssh esté corriendo
+	ssh-add ~/.ssh/id_rsa
+		añadir nuestra llave creada
+	git remote set-url remoteName sshURL
+		cambiar la direccion del repositorio remoto
