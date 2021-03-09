@@ -12,6 +12,8 @@ git show
 	mostrar todos los cambios históricos hechos
 git log nameFile
 	revisar el historial de cambios de un archivo
+git log --all --graph --decorate --oneline
+	mostrar de una manera mas ordenada los logs
 git push
 	mandar a un servidor remoto
 git pull 
@@ -67,8 +69,33 @@ git cheockout branchName
 	redirige a la nueva rama
 git merge branchName
 	combina la rama donde esta el HEAD con branchName, continua en la rama del HEAD
+<<<<<<< HEAD
 ------
 github
 git remote add origin url
 	añadir la direccion del repositorio
 git push origin main
+=======
+git pull origin main --allow-unrelated-histories
+	permitir realizar un merge con repositorios de origenes diferentes
+---------
+Confiruracion ssh
+	ssh-keygen -t rsa -b 4096 -C "email"
+		generación de llave ssh
+	eval $(ssh-agent -s)
+		comprobar que el proceso ssh esté corriendo
+	ssh-add ~/.ssh/id_rsa
+		añadir nuestra llave creada
+	git remote set-url remoteName sshURL
+		cambiar la direccion del repositorio remoto
+	
+	creando alias
+		alias aliasName = "comando a ejecutar"
+
+	creando tags 
+		git tag -a v# -m "message" idCommit
+	ver tags
+		git tag
+	forma completa
+		git show-ref --tags	
+>>>>>>> 7d21b632c4ebe60e59291a403fb0b94fa5599590
