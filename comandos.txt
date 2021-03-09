@@ -12,6 +12,8 @@ git show
 	mostrar todos los cambios históricos hechos
 git log nameFile
 	revisar el historial de cambios de un archivo
+git log --all --graph --decorate --oneline
+	mostrar de una manera mas ordenada los logs
 git push
 	mandar a un servidor remoto
 git pull 
@@ -79,3 +81,13 @@ Confiruracion ssh
 		añadir nuestra llave creada
 	git remote set-url remoteName sshURL
 		cambiar la direccion del repositorio remoto
+	
+	creando alias
+		alias aliasName = "comando a ejecutar"
+
+	creando tags 
+		git tag -a v# -m "message" idCommit
+	ver tags
+		git tag
+	forma completa
+		git show-ref --tags	
